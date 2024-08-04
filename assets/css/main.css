@@ -752,8 +752,7 @@ body.is-touch .tiles article .content {
 	max-width: 80%;
 	height: 100%;
 	-webkit-overflow-scrolling: touch;
-	background: #686868e0;
-	;
+background: #000e37d1;
 	color: #ffffff;
 	cursor: default;
 	visibility: hidden;
@@ -774,6 +773,10 @@ body.is-touch .tiles article .content {
 	padding: 2.75em;
 	opacity: 0;
 	overflow-y: auto;
+}
+
+#menu .inner a:hover {
+	color: #b4d5ff !important;
 }
 
 #main div p {
