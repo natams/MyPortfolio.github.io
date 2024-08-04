@@ -363,6 +363,7 @@ footer {
     justify-content: center;
     text-align: left;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 #gb-footer .gb-footer-links>div {
