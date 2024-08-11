@@ -53,9 +53,11 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
     });
 });
 
-// Disable right-click context menu
-document.addEventListener('contextmenu', function(event) {
-    event.preventDefault();
-});
+        // Disable right-click context menu
+        document.addEventListener('DOMContentLoaded', function() {
+            document.addEventListener('contextmenu', function(event) {
+                event.preventDefault();
+            });
+        });
 
 
