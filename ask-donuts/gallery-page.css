@@ -115,15 +115,15 @@ html {
     padding: 2em 4em;
 }
 
-.gallery-item img {
-    display: block;
-    width: 100%;
-    transition: all 0.4s;
+.gallery-item {
+    overflow: hidden;
     border-radius: 18px;
 }
 
-.gallery-item {
-    overflow: hidden;
+.gallery-item img {
+    display: block;
+    width: 100%;
+    transition: transform 0.3s ease;
     border-radius: 18px;
 }
 
@@ -137,7 +137,39 @@ figure {
 }
 
 @media only screen and (max-width: 900px) {
+    .gallery-item {
+        overflow: visible;
+    }
 
+    .gallery-item:nth-child(1) img:active,
+    .gallery-item:nth-child(4) img:active,
+    .gallery-item:nth-child(7) img:active,
+    .gallery-item:nth-child(10) img:active,
+    .gallery-item:nth-child(13) img:active {
+        transform: scale(3.5);
+        position: relative;
+        left: 155px;
+    }
+
+    .gallery-item:nth-child(2) img:active,
+    .gallery-item:nth-child(5) img:active,
+    .gallery-item:nth-child(8) img:active,
+    .gallery-item:nth-child(11) img:active,
+    .gallery-item:nth-child(14) img:active {
+        transform: scale(3.5);
+        position: relative;
+        top: 120px; 
+    }
+
+    .gallery-item:nth-child(3) img:active,
+    .gallery-item:nth-child(6) img:active,
+    .gallery-item:nth-child(9) img:active,
+    .gallery-item:nth-child(12) img:active,
+    .gallery-item:nth-child(15) img:active {
+        transform: scale(3.5);
+        position: relative;
+        right: 155px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -148,6 +180,10 @@ figure {
     .donuts-body-container {
         margin: 3em 2em;
         padding: 0em 0em 0em 0em;
+    }
+
+    .gallery {
+        padding: 2em 1em;
     }
 
 }
