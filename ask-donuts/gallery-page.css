@@ -148,7 +148,7 @@ figure {
     .gallery-item:nth-child(13) img:active {
         transform: scale(3.5);
         position: relative;
-        left: 155px;
+        left: 115px;
     }
 
     .gallery-item:nth-child(2) img:active,
@@ -168,7 +168,7 @@ figure {
     .gallery-item:nth-child(15) img:active {
         transform: scale(3.5);
         position: relative;
-        right: 155px;
+        right: 115px;
     }
 }
 
