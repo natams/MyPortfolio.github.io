@@ -145,31 +145,31 @@ figure {
         overflow: visible;
     }
 
-    .gallery-item:nth-child(1) img:active,
-    .gallery-item:nth-child(4) img:active,
-    .gallery-item:nth-child(7) img:active,
-    .gallery-item:nth-child(10) img:active,
-    .gallery-item:nth-child(13) img:active {
+    .gallery-item:nth-child(1) img:focus,
+    .gallery-item:nth-child(4) img:focus,
+    .gallery-item:nth-child(7) img:focus,
+    .gallery-item:nth-child(10) img:focus,
+    .gallery-item:nth-child(13) img:focus {
         transform: scale(3.5);
         position: relative;
         left: 100px;
     }
 
-    .gallery-item:nth-child(2) img:active,
-    .gallery-item:nth-child(5) img:active,
-    .gallery-item:nth-child(8) img:active,
-    .gallery-item:nth-child(11) img:active,
-    .gallery-item:nth-child(14) img:active {
+    .gallery-item:nth-child(2) img:focus,
+    .gallery-item:nth-child(5) img:focus,
+    .gallery-item:nth-child(8) img:focus,
+    .gallery-item:nth-child(11) img:focus,
+    .gallery-item:nth-child(14) img:focus {
         transform: scale(3.5);
         position: relative;
         top: 120px; 
     }
 
-    .gallery-item:nth-child(3) img:active,
-    .gallery-item:nth-child(6) img:active,
-    .gallery-item:nth-child(9) img:active,
-    .gallery-item:nth-child(12) img:active,
-    .gallery-item:nth-child(15) img:active {
+    .gallery-item:nth-child(3) img:focus,
+    .gallery-item:nth-child(6) img:focus,
+    .gallery-item:nth-child(9) img:focus,
+    .gallery-item:nth-child(12) img:focus,
+    .gallery-item:nth-child(15) img:focus {
         transform: scale(3.5);
         position: relative;
         right: 100px;
