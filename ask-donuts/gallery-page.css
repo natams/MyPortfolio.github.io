@@ -152,7 +152,7 @@ figure {
     .gallery-item:nth-child(13) img:active {
         transform: scale(3.5);
         position: relative;
-        left: 115px;
+        left: 100px;
     }
 
     .gallery-item:nth-child(2) img:active,
@@ -172,7 +172,7 @@ figure {
     .gallery-item:nth-child(15) img:active {
         transform: scale(3.5);
         position: relative;
-        right: 115px;
+        right: 100px;
     }
 }
 
