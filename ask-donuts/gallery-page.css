@@ -237,7 +237,7 @@ figure {
     width: clamp(13.125em, 8vw, 15em);
     height: auto;
     display: block;
-    margin: 0em 0em 0em 0em;
+    margin: 0em 0em 1em 0em;
 }
 
 #donuts-footer .donuts-logo-img {
