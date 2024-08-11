@@ -129,6 +129,7 @@ html {
     width: 100%;
     transition: transform 0.3s ease;
     border-radius: 18px;
+    z-index: 10000;
 }
 
 .gallery-item img:hover {
