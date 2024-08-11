@@ -14,12 +14,12 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
     font-size: 0.8em;
 }
 
 .donuts-head-container img {
-    height: 3em;
+    height: 5em;
 }
 
 .donuts-header-navigation nav {
@@ -57,7 +57,7 @@ html {
     color: #000000;
 }
 
-@media only screen and (max-width: 668px) { 
+@media only screen and (max-width: 668px) {
     .donuts-header-navigation nav {
         padding: 0em;
     }
@@ -68,7 +68,7 @@ html {
     }
 }
 
-@media only screen and (max-width: 300px) { 
+@media only screen and (max-width: 300px) {
     .main-nav-list {
         gap: 10px;
     }
@@ -164,7 +164,7 @@ figure {
     .gallery-item:nth-child(14) img:active {
         transform: scale(3.5);
         position: relative;
-        top: 120px; 
+        top: 120px;
     }
 
     .gallery-item:nth-child(3) img:active,
@@ -237,7 +237,7 @@ figure {
     width: clamp(13.125em, 8vw, 15em);
     height: auto;
     display: block;
-    margin: 0em 0em 1em 0em;
+    margin: 0em 0em 0em 0em;
 }
 
 #donuts-footer .donuts-logo-img {
