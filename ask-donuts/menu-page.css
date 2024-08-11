@@ -58,15 +58,19 @@ html {
 }
 
 @media only screen and (max-width: 668px) { 
+    .donuts-header-navigation nav {
+        padding: 0em;
+    }
+
     .main-nav-list {
         gap: 30px;
+        font-size: 0.9em;
     }
 }
 
 @media only screen and (max-width: 300px) { 
     .main-nav-list {
-        gap: 15px;
-        font-size: 0.9em;
+        gap: 10px;
     }
 }
 
@@ -158,6 +162,8 @@ html {
 
 .donuts-menu {
     margin: 2em 0em;
+    display: flex;
+    justify-content: center;
 }
 
 .donuts-menu img {
@@ -216,6 +222,11 @@ html {
 
     .type-text {
         margin: 0em 0em 2em 0em;
+    }
+
+    .donuts-menu img {
+        width: 100%;
+        padding: 1em 1em;
     }
 }
 
