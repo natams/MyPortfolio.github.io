@@ -238,13 +238,4 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
     });
 });
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JZ04XZYHC6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JZ04XZYHC6');
-</script>
 
