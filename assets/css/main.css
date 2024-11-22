@@ -194,6 +194,10 @@ ul.icons li {
 
 /* Works */
 
+#portfolio {
+	scroll-margin-top: 50px;
+  }
+
 .content {
 	border-top: 0.5px #00000012 solid;
     /* box-shadow: -1px -5px 16px #0000001a; */
