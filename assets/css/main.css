@@ -30,6 +30,13 @@ body {
 	-ms-overflow-style: scrollbar;
 }
 
+html,
+body {
+	height: auto;
+	overflow-x: hidden;
+	line-height: 1.5;
+}
+
 *,
 *:before,
 *:after {
@@ -191,22 +198,22 @@ ul.icons li {
 	display: none;
 }
 
-
 /* Works */
 
 #portfolio {
 	scroll-margin-top: 50px;
-  }
+}
 
 .content {
 	border-top: 0.5px #00000012 solid;
-    /* box-shadow: -1px -5px 16px #0000001a; */
+	/* box-shadow: -1px -5px 16px #0000001a; */
 	box-shadow: inset 0px 6px 16px #0000001a;
 	border-radius: 6px;
 	padding: 2em 0em 0em 0em;
 	position: relative;
 	margin-top: 100vh;
-	background: linear-gradient(180deg, #d8e6f8 0%, #ffffff 80%);	z-index: 2;
+	background: linear-gradient(180deg, #d8e6f8 0%, #ffffff 80%);
+	z-index: 2;
 	transition: transform 0.1s ease-out;
 
 }
@@ -226,6 +233,7 @@ ul.icons li {
 	left: 0;
 	width: 100%;
 	height: 80vh;
+	overflow: auto;
 }
 
 .about-me .photo {
@@ -299,9 +307,9 @@ ul.icons li {
 
 @media screen and (max-width: 1520px) {
 
-.tiles {
-    margin: 1em 0em 3em 0em;
-}
+	.tiles {
+		margin: 1em 0em 3em 0em;
+	}
 }
 
 
@@ -313,13 +321,14 @@ ul.icons li {
 	}
 
 	.content h4 {
-		font-size: 1em;
+		font-size: 1.2em;
+        margin: 0em 0.5em 2em 0.5em;
 	}
 
 	.about-me {
 		justify-content: flex-start;
 		margin: 3.5em 0em 0em 0em;
-		height: 60vh;
+		/* height: 60vh; */
 	}
 
 	.about-me .photo {
@@ -331,7 +340,7 @@ ul.icons li {
 /* Header */
 
 #header {
-    padding: 0.5em 2em 0.5em 4em;
+	padding: 0.5em 2em 0.5em 4em;
 	margin: 0em 0em 1em 0em;
 	background-color: #fff;
 	/* background-color: linear-gradient(180deg, #b9cce4 40%, #ffffff 100%); */
@@ -343,8 +352,8 @@ ul.icons li {
 }
 
 #header.scrolled {
-    border-bottom: 0.5px #00000012 solid;
-    box-shadow: 0 1px 16px #0000001a;
+	border-bottom: 0.5px #00000012 solid;
+	box-shadow: 0 1px 16px #0000001a;
 	/* background-color: #fff; */
 }
 
@@ -380,10 +389,10 @@ ul.icons li {
 }
 
 #header .menu .flex {
-display: flex;
-flex-direction: row;
-    align-items: center;
-    gap: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 40px;
 }
 
 #header .menu .name {
@@ -590,7 +599,7 @@ flex-direction: row;
 #main div p {
 	margin: 0em 0em 3em 0em;
 	line-height: 1.2;
-	font-size: 1.2em;
+	font-size: calc(1rem + 2vw);
 	color: #454545;
 	font-weight: 500;
 	text-align: center;
@@ -601,7 +610,7 @@ flex-direction: row;
 	#main .location {
 		text-align: center;
 		margin: 2em 0em 0em 0em;
-        font-size: 1em;
+		font-size: 1em;
 	}
 
 	#main .inner .bio {
@@ -612,9 +621,9 @@ flex-direction: row;
 		font-size: 1.8em;
 	}
 
-	#main div p {
+	/* #main div p {
 		font-size: 1.3em;
-	}
+	} */
 
 }
 
