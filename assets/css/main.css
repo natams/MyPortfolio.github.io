@@ -220,10 +220,15 @@ ul.icons li {
 .content h4 {
 	font-size: 1.3em;
 	color: #454545;
-	/* font-weight: 500; */
+	font-weight: 500;
 	text-align: center;
 	line-height: 1.2;
-	margin: 0em 0em 2em 0em;
+	margin: 0em 0em 1em 0em;
+}
+
+.content h4 b {
+	font-weight: 600;
+	margin: 0em 0em 1em 0em;
 }
 
 .about-me {
@@ -243,7 +248,7 @@ ul.icons li {
 }
 
 .about-me .photo img {
-	width: 25vh;
+	width: 35vh;
 	border-radius: 8px;
 	filter: drop-shadow(0 0 80px #86a9d6);
 }
@@ -322,7 +327,7 @@ ul.icons li {
 
 	.content h4 {
 		font-size: 1.4em;
-        margin: 0em 0.5em 2em 0.5em;
+        margin: 0em 0.5em 1em 0.5em;
 	}
 
 	.about-me {
@@ -583,7 +588,7 @@ ul.icons li {
 #main .location {
 	font-size: 0.7em;
 	color: #868686;
-	margin: 1em 0em -1em 0em;
+	margin: 0em 0em 0em 0em;
 	text-align: center;
 }
 
@@ -610,12 +615,12 @@ ul.icons li {
 
 	#main .location {
 		text-align: center;
-		margin: 2em 0em 0em 0em;
+		margin: 0em 0em 0em 0em;
 		font-size: 1em;
 	}
 
 	#main .inner .bio {
-		margin: 0em 0.5em 2em 0.5em;
+		margin: 2em 0.5em -3em 0.5em;
 	}
 
 	#main div h1 {
