@@ -220,12 +220,25 @@ document.addEventListener('scroll', function () {
 	}
 });
 
+// Scroll to top button functionality
+
 document.getElementById('scrollToTop').addEventListener('click', function () {
 	window.scrollTo({
 		top: 0,
 		behavior: 'smooth'
 	});
 });
+
+// Add scroll-to-top functionality for the "Nathalie Amselem" link
+
+document.querySelector('.title a').addEventListener('click', function (event) {
+	event.preventDefault();
+	window.scrollTo({
+		top: 0,
+		behavior: 'smooth'
+	});
+});
+
 
 // Show/hide the down arrow based on scroll position
 
@@ -308,21 +321,4 @@ document.addEventListener("scroll", () => {
 		photo.style.opacity = '1';
     }
 });
-
-
-
-  
-
-  
-  
-
-
-
-
-
-
-
-
-
-
 
