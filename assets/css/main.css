@@ -592,13 +592,14 @@ ul.icons li {
 
 
 #main .location {
-	font-size: 0.7em;
+	font-size: 0.8em;
 	color: #868686;
 	margin: 0em 0em 0em 0em;
 	text-align: center;
 }
 
 #main .inner .bio {
+	margin: 2em 0.5em -3em 0.5em;
 	text-align: center;
 }
 
@@ -625,9 +626,9 @@ ul.icons li {
 		font-size: 1em;
 	}
 
-	#main .inner .bio {
+	/* #main .inner .bio {
 		margin: 2em 0.5em -3em 0.5em;
-	}
+	} */
 
 	#main div h1 {
 		font-size: 1.8em;
