@@ -223,12 +223,12 @@ ul.icons li {
 	font-weight: 500;
 	text-align: center;
 	line-height: 1.2;
-	margin: 0em 0em 1em 0em;
+	margin: 0em 12em 1em 12em;
 }
 
 .content h4 b {
 	font-weight: 600;
-	margin: 0em 0em 1em 0em;
+	line-height: 1.8;
 }
 
 .about-me {
@@ -248,7 +248,7 @@ ul.icons li {
 }
 
 .about-me .photo img {
-	width: 35vh;
+	width: 30vh;
 	border-radius: 8px;
 	filter: drop-shadow(0 0 80px #86a9d6);
 }
@@ -317,6 +317,12 @@ ul.icons li {
 	}
 }
 
+@media screen and (max-width: 901px) {
+
+	.content h4 {
+        margin: 0em 8em 1em 8em;
+	}
+}
 
 @media screen and (max-width: 736px) {
 
