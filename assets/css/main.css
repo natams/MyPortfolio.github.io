@@ -711,6 +711,7 @@ body.is-menu-visible #menu .close {
 	height: 300px;
 	width: 300px;
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 .content .gaming article:nth-child(1) {
@@ -731,10 +732,14 @@ body.is-menu-visible #menu .close {
 }
 
 .content .other article:nth-child(1) {
-	background-color: #fcf2e9;
+	background-color: #000;
 }
 
 .content .other article:nth-child(2) {
+	background-color: #fcf2e9;
+}
+
+.content .other article:nth-child(3) {
 	background-color: #fce4de;
 }
 
@@ -792,11 +797,6 @@ body.is-menu-visible #menu .close {
     }
 }
 
-/* section.special,
-article.special {
-	text-align: center;
-} */
-
 /* Scroll Up / Down Icons */
 .scroll-to-top {
 	position: fixed;
@@ -808,11 +808,12 @@ article.special {
 	transition: opacity 0.3s ease;
 	z-index: 1000;
 	padding: 0 1em;
-	/* background-color: #4141411a; */
+    transition: opacity 0.5s ease, visibility 0.5s ease;
 	border-radius: 8px;
 }
 
-.scroll-to-top span {
+.scroll-to-top span,
+.scroll-down span {
 	font-size: 20px;
 }
 
@@ -828,16 +829,8 @@ article.special {
 	padding: 0em 1em;
 	border-radius: 8px;
 	display: block;
+	transition: opacity 0.5s ease, visibility 0.5s ease;
 }
-
-.scroll-down span {
-	font-size: 20px;
-}
-
-.fa-solid {
-	line-height: 48px !important;
-}
-
 
 /* Footer */
 
