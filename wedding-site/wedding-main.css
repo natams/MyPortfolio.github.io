@@ -419,6 +419,7 @@ a:hover,
     align-items: center;
     padding: 2em 0em 3em 2em;
     line-height: 1.5;
+    margin: 0em 0em 3em 0em;
 }
 
 .hero-text p:nth-of-type(5) {
@@ -451,6 +452,10 @@ a:hover,
     .and-symbol {
         font-size: 34em;
     }
+
+    .hero-text {
+    margin: 0em 0em 0em 0em;
+}
 }
 
 @media (min-width: 900px) {
