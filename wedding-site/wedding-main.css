@@ -413,7 +413,7 @@ a:hover,
     position: relative;
     height: 100%;
     z-index: 2;
-    color: #000000f0;
+    color: #b9b9b9f0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -454,8 +454,8 @@ a:hover,
     }
 
     .hero-text {
-    margin: 0em 0em 0em 0em;
-}
+        margin: 0em 0em 0em 0em;
+    }
 }
 
 @media (min-width: 900px) {
