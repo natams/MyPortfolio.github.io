@@ -114,21 +114,23 @@ a:hover,
     opacity: 80%;
 }
 
-/* #timeline,
+#timeline,
 #countdown,
 #location,
-#rsvp,
-#registry,
 #livestream {
-    scroll-margin-top: 62px;
+    scroll-margin-top: 50px;
 }
 
-@media (max-width: 500px) {
-    #rsvp {
+@media (min-width: 900px) {
+    #timeline,
+    #countdown,
+    #location,
+    #rsvp,
+    #registry,
+    #livestream {
         scroll-margin-top: 0px;
     }
 }
-*/
 
 /* Header */
 
