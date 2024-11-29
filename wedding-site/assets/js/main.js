@@ -296,6 +296,43 @@ document.getElementById('rsvp-form').addEventListener('submit', function (e) {
         });
 });
 
+// Smooth Scrolling
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        const duration = 600; // Duration in milliseconds
+
+        const start = window.pageYOffset;
+        const end = target.getBoundingClientRect().top + start;
+        const startTime = performance.now();
+
+        function scrollStep(currentTime) {
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const ease = progress < 0.5 ? 2 * progress * progress : 1 - Math.pow(-2 * progress + 2, 2) / 2;
+
+            window.scrollTo(0, start + (end - start) * ease);
+
+            if (elapsed < duration) {
+                requestAnimationFrame(scrollStep);
+            }
+        }
+
+        requestAnimationFrame(scrollStep);
+    });
+});
+
+// Detect Chrome on mobile
+
+if (/Chrome/.test(navigator.userAgent) && /Mobile/.test(navigator.userAgent)) {
+    const hero = document.querySelector('.hero');
+    if (hero) {
+        hero.classList.add('chrome-mobile');
+    }
+}
+
 
 
 
