@@ -122,6 +122,7 @@ a:hover,
 }
 
 @media (min-width: 900px) {
+
     #timeline,
     #countdown,
     #location,
@@ -600,7 +601,16 @@ a:hover,
     text-align: left;
 }
 
-@media (min-width: 900px) {}
+@media (min-width: 900px) {
+    .timeline {
+        padding: 1em 0em;
+        height: 550px;
+    }
+
+    .center {
+        transform: scale(0.8);
+    }
+}
 
 /* Countdown */
 
@@ -695,7 +705,7 @@ custom-countdown div {
 @media (min-width: 900px) {
     .countdown {
         background-position: top;
-        height: 600px;
+        height: 450px;
     }
 }
 
@@ -759,17 +769,26 @@ custom-countdown div {
 }
 
 @media (min-width: 900px) {
+    .location {
+        padding: 1em 1em 3em 1em;
+    }
+
+    .location h2 {
+        margin: 1em 0em -0.5em 0em;
+        font-size: 2.3em;
+    }
+
     .location img {
         width: 40%;
     }
 
     .location h3 {
-        font-size: 1.5em;
-        margin: 0em 0em 2em 0em;
+        font-size: 1.2em;
+        margin: 0em 0em 0.5em 0em;
     }
 
     .location .links a {
-        font-size: 2.3em;
+        font-size: 1.6em;
     }
 }
 
@@ -883,9 +902,15 @@ input[type="number"] {
 }
 
 @media (min-width: 900px) {
-    /* .rsvp {
-        transform: scale(1.1);
-    } */
+    .rsvp {
+        padding: 0em 0em 0em 0em;
+        min-height: 550px;
+        height: 580px;
+    }
+
+    .rsvp-container {
+        transform: scale(0.7);
+    }
 }
 
 /* Registry */
@@ -970,13 +995,25 @@ input[type="number"] {
 
 @media (min-width: 900px) {
     .registry {
-        padding: 3em 0em 1em 0em
+        padding: 2em 0em 1em 0em;
+    }
+
+    .registry>* {
+        transform: scale(0.8);
+    }
+
+    .registry h2 {
+        margin: 0em 0em 0.5em 0em;
     }
 
     .registry p {
         text-align: center;
         max-width: 700px;
-        margin: 0em auto 3em auto;
+        margin: 0em auto 1em auto;
+    }
+
+    .payment-methods {
+        margin: 0em 0em 2em 0em;
     }
 
     .transfer {
