@@ -383,6 +383,10 @@ a:hover,
     text-align: center;
 }
 
+.hero.chrome-mobile {
+    height: 95vh;
+}
+
 .overlay1 {
     position: absolute;
     top: 0;
@@ -456,11 +460,11 @@ a:hover,
     text-transform: lowercase;
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
     .hero {
         height: 95vh;
     }
-}
+} */
 
 @media (max-width: 376px) {
 
@@ -1194,9 +1198,3 @@ input[type="number"] {
     opacity: 0;
     visibility: hidden;
 }
-
-/* @media (max-width: 500px) {
-    .scroll-down {
-        bottom: 8%;
-    }
-} */
