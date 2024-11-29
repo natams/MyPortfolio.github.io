@@ -123,6 +123,12 @@ a:hover,
     scroll-margin-top: 62px;
 }
 
+@media (max-width: 500px) {
+    #rsvp {
+        scroll-margin-top: 0px;
+    }
+}
+
 /* Header */
 
 .header {
@@ -211,7 +217,6 @@ a:hover,
     z-index: 1000;
 }
 
-
 #menu>.inner {
     transition: opacity 0.45s ease;
     position: absolute;
@@ -246,17 +251,17 @@ a:hover,
 #menu>.inner>ul>li a {
     display: block;
     padding: 1.3em 0;
-    line-height: 1.5;
+    line-height: 1;
     border: 0;
     text-decoration: none;
     color: #ffffff;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 500;
     text-align: center;
     font-family: "Antic Didone", serif;
 }
 
-#menu>.inner>ul>li:nth-child(5) a,
+#menu>.inner>ul>li:nth-child(6) a,
 .menu-desktop .menu-right a:nth-child(1) {
     border: 1px solid #6e6e6e;
     padding: 0.3em 0.8em;
@@ -448,7 +453,14 @@ a:hover,
     text-transform: lowercase;
 }
 
+@media (max-width: 500px) {
+    .hero {
+        height: 95vh;
+    }
+}
+
 @media (max-width: 376px) {
+
     .and-symbol {
         font-size: 34em;
     }
@@ -1178,4 +1190,10 @@ input[type="number"] {
 .hidden {
     opacity: 0;
     visibility: hidden;
+}
+
+@media (max-width: 500px) {
+    .scroll-down {
+        bottom: 8%;
+    }
 }
