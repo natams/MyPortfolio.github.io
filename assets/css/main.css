@@ -733,6 +733,7 @@ body.is-menu-visible #menu .close {
 
 .content .wix article:nth-child(1) {
 	background-color: #fde2d5;
+	height: 280px;
 }
 
 .content .other article:nth-child(1) {
