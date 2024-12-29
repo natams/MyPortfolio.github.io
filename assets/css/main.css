@@ -731,6 +731,10 @@ body.is-menu-visible #menu .close {
 	background-color: #041d39;
 }
 
+.content .wix article:nth-child(1) {
+	background-color: #fde2d5;
+}
+
 .content .other article:nth-child(1) {
 	background-color: #000;
 }
