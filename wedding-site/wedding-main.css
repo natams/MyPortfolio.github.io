@@ -44,7 +44,7 @@ body {
     line-height: 1;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow: hidden;
     width: 100%;
 }
 
