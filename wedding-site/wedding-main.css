@@ -17,7 +17,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
     line-height: 1;
     -webkit-text-size-adjust: none;
@@ -37,15 +36,15 @@ body.no-scroll {
     width: 100%;
 }
 
-
 html,
 body {
     height: auto;
     line-height: 1;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
     width: 100%;
+    scrollbar-width: none;
 }
 
 *,
