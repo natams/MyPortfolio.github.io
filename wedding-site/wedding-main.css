@@ -129,7 +129,7 @@ a:hover,
     #rsvp,
     #registry,
     #livestream {
-        scroll-margin-top: 0px;
+        scroll-margin-top: 20px;
     }
 }
 
@@ -410,7 +410,7 @@ a:hover,
 
 .and-symbol {
     position: absolute;
-    top: 57%;
+    top: 55%;
     left: 40%;
     transform: translate(-50%, -50%);
     font-size: 40em;
@@ -461,6 +461,10 @@ a:hover,
     text-transform: lowercase;
 }
 
+.antic {
+    font-family: "Antic Didone", serif;
+}
+
 /* @media (max-width: 500px) {
     .hero {
         height: 95vh;
@@ -489,9 +493,16 @@ a:hover,
     .hero-text {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        gap: 10px;
+        justify-content: space-around;
         margin: 7em 0em 0em 0em;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .hero-text .title {
+        margin: 0em;
     }
 }
 
@@ -963,7 +974,7 @@ input[type="number"] {
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    gap: 50px;
+    gap: 25px;
 }
 
 .apps img {
@@ -1105,26 +1116,31 @@ input[type="number"] {
 }
 
 .contact-us h2 {
-    font-size: 1.82em;
+    font-size: 1.8em;
     color: #000000;
-    margin: 0em 0em 0.5em 0em;
+    margin: 0em 0em 0em 0em;
     font-family: 'Serif';
     font-weight: 400;
     line-height: 1.2;
+    font-style: italic;
+    background-color: #cccccc;
+    position: relative;
+    z-index: 1;
+    padding: 0.01em 0.1em;
+    display: inline-block;
+    top: 0.45em;
 }
 
 .contact-columns {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    border: 1px #7c7c7c solid;
+    border-radius: 10px;
+    padding: 1em 0em;
 }
 
 .contact-card {
-    /* background: white; */
-    /* border: 1px solid #ddd; */
-    /* border-radius: 8px; */
-    /* padding: 1em 1em; */
-    /* box-shadow: 0 2px 4px #0000001a; */
     width: 300px;
     text-align: center;
     margin: 0em auto;
@@ -1191,7 +1207,7 @@ input[type="number"] {
     }
 
     .contact-us h2 {
-        margin: 0em 0em 1em 0em;
+        /* margin: 0em 0em 1em 0em; */
     }
 
     .contact-card {
@@ -1219,6 +1235,31 @@ input[type="number"] {
 .copyright p a:hover {
     color: #000000;
     text-decoration: underline;
+}
+
+/* Language Switch */
+
+.language-switch {
+    position: fixed;
+    top: 26px;
+    left: -10px;
+    z-index: 1000;
+}
+
+.language-switch a {
+    font-size: 1.2em;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    color: #ffffffc0;
+    text-decoration: none;
+    background-color: #00000070;
+    padding: 0.2em 0.35em 0.2em 0.8em;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+}
+
+.language-switch a:hover {
+    background-color: #999999;
 }
 
 /* Scroll Up / Down Icons */
