@@ -1,5 +1,3 @@
-window.location.href = "https://yournewdomain.com";
-
 (function ($) {
 
 	var $window = $(window),
