@@ -1,4 +1,4 @@
-
+window.location.href = "https://yournewdomain.com";
 
 (function ($) {
 
